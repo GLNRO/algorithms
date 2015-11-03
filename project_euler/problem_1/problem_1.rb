@@ -1,0 +1,1 @@
+puts (1..999).select { |x| x if x%3==0 or x%5==0 }.reduce(:+)
